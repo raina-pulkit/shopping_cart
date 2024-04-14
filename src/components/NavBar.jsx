@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function NavBar(){
 	return (
 		<>
-			<nav className="flex items-center justify-between lg:h-20 sm:h-12 max-w-6xl">
+			<nav className="flex items-center justify-between lg:h-20 sm:h-12 max-w-full p-8">
 				<Link to={'/'}>
 					<div className="ml-5">
 						<h1 className="text-red-500 font-bold text-xl sm:text-2xl md:text-3xl cursor-pointer -tracking-wide">

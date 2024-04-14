@@ -32,7 +32,7 @@ export default function Home() {
   // }, [products]);
 
   return (
-    <div className="min-h-screen w-full flex flex-wrap justify-center items-center">
+    <div className="min-h-screen flex flex-wrap justify-center items-center w-screen">
       {loading ? (
         <Circles height={"120"} width={"120"} color="maroon" visible={true} />
       ) : errMsg ? (
