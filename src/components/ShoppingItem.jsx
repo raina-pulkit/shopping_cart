@@ -6,7 +6,7 @@ export default function ShoppingItem({ item }) {
 
   return (
     <>
-      <div className="flex flex-col justify-evenly items-center border-2 border-red-900 gap-3 p-4 h-[360px] mt-10 ml-5 rounded-xl">
+      <div className="flex flex-col justify-evenly items-center border-2 border-red-900 gap-3 sm:p-4 p-2 h-auto mt-5 sm:mt-10 ml-5 rounded-xl sm:w-auto w-72">
         <div className="h-[180px]">
           <img src={item?.image} className="object-cover h-full w-full" />
         </div>
